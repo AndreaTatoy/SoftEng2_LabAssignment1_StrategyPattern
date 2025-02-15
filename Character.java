@@ -2,7 +2,7 @@ package LabAssignment1_StrategyPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Character {
+public class Character {
     protected AttackStrategy attackStrategy;
     protected List<DefenseStrategy> defenseStrategies = new ArrayList<>();
 
